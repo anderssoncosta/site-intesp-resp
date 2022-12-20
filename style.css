@@ -1,0 +1,546 @@
+body{
+    background-color: #1E1E1E;
+    margin: 0;
+}
+
+h1,p{
+    color: #FFF;
+}
+
+.container_menu{
+    background-color: #181717;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 32px;
+    align-items: flex-end;
+}
+
+.lista_menu_redesociais{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.redes_sociais{
+    padding-left: 12px;
+}
+
+.menu_lista{
+    color: #FFF;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.menu_lista:hover{
+    border-radius: 8px;
+    border-bottom: #FFF solid;
+}
+
+.logo{
+    width: 200px;
+    height: 100px;
+}
+
+.link{
+    background: #D40000;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.banner{
+    width: 100%; 
+}
+
+.areas{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+    text-align: center;
+    padding: 30px;
+    
+}
+
+.card_areas{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+.imagem{
+    width: 50px;
+    height: 50px;
+    border: 2px solid;
+    border-color: #FFF;
+    padding: 60px;
+}
+
+.titulo{
+    margin-top: 5px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 30px;
+}
+.texto_area{
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 700;
+    width: 330px;
+}
+
+.caixa{
+    width: 40%;
+    text-align: end;
+    padding-right: 10px;
+}
+
+.bannerfundo{
+    position: relative;
+    
+}
+
+.banner_principal{
+    background-image: url(imagens/image2.png);
+    background-repeat: no-repeat;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 897px;
+}
+
+.banner2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.botao{
+    background-color: #D40000;
+    border-radius: 5px;
+    color: #FFF;
+    padding: 8px;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+
+.botao_formulario{
+    align-items: center;
+    background-color: #D40000;
+    border-radius: 5px;
+    color: #FFF;
+    padding: 8px;
+    text-decoration: none;
+    display: inline-flex;
+    margin-top: 30px;
+    width: 224px;
+    height: 45px;
+    justify-content: center;
+}
+
+.descricao{
+    color: #FFF;
+    padding: 10px;
+    text-align: right;
+}
+.titulo_banner2{
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 700;
+    padding: 10px;
+}
+
+.img_banner2{
+    max-width: 570px;
+    min-height: 570px;
+}
+
+.formulario{
+    position: relative;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.formulario_texto{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: auto;
+    height: auto;
+}
+.titulo_formulario{
+    display: flex;
+    align-items: center;
+    width: 199px;
+    height: 88px;
+    text-align: initial;
+    font-size: 40px;
+}
+
+.descricao_formulario{
+    position: relative;
+    width: 315px;
+    height: 36px;
+    text-align: end;
+    font-size: 16px;
+}
+
+.formulario_container{
+    padding: 50px;
+    background: #181717;
+    border-radius: 10px;
+    text-align: end;
+}
+
+
+.formulario_form{
+    display: grid;
+    justify-content: center;
+    justify-items: end;
+}
+
+.campo_texto{
+    width: 428.05px;
+    height: 60px;
+    /* margin: 10px 20px 10px 0px; */
+    background: #D9D9D9;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.campo_opcao{
+    width: 438.06px;
+    height: 60px;
+    background: #D9D9D9;
+    border-radius: 5px;
+    padding: 1px 2px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.mapa{
+    width: 100%;
+}
+
+.texto_rodape{
+    background-color: #D40000;
+    margin: 0;    
+    text-align: center;
+    padding: 30px;
+}
+
+.rodape_mapa{
+    margin: 0;
+}
+
+@media only screen and (max-width: 390px){
+
+    .lista_menu{
+        padding: 0;
+    }
+
+    .redes_sociais{
+        padding: 0px;
+    }
+
+    .lista_menu_redesociais {
+        padding-left: 0px;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .container_menu {
+        background-color: #181717;
+        display: flex;
+        padding: 10px;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .menu_lista {
+        color: #FFF;
+        padding: 4px;
+        text-decoration: none;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .banner {
+        width: 100%;
+        height: 150px;
+    }
+
+    .areas {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        padding: 30px;
+        flex-direction: column;
+    }
+
+    .banner_principal {
+        display: flex;
+        width: 100%;
+        height: 897px;
+        flex-direction: column;
+    }
+
+    .banner2 {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .caixa {
+        width: 100%;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .titulo_banner2 {
+        color: #FFF;
+        font-size: 40px;
+        font-weight: 700;
+        padding-top: 30px;
+    }
+
+    .descricao {
+        color: #FFF;
+        padding-left: 15px;
+        padding-right: 15px;        
+        text-align: justify;
+    }
+
+    .img_banner2 {
+        width: 100%;
+        padding-top: 10px;
+    }
+
+    .formulario {
+        display: flex;
+        width: 100%;
+        padding-bottom: 50px;
+        padding-top: 50px;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .formulario_container {
+        background: #181717;
+        border-radius: 10px;
+        text-align: end;
+    }
+
+    .formulario_form{
+        display: flex;
+        justify-items: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .formulario_texto {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .titulo_formulario {
+        display: flex;
+        align-items: center;
+        font-size: 35px;
+        width: 100%;
+    }
+
+    .descricao_formulario {
+        width: 300px;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .campo_formulario{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .campo_texto {
+        width: 90%;
+        background: #D9D9D9;
+        border-radius: 5px;
+        font-size: 16px;
+        font-weight: 700;
+        height: 45px;
+    }
+
+    .campo_opcao {
+        width: 92%;
+        height: 40px;
+        background: #D9D9D9;
+        border-radius: 5px;
+        font-size: 16px;
+        font-weight: 700;
+        margin: 4px 4px 4px 4px;
+    }
+
+}
+
+@media screen and (min-width: 390px) and (max-width: 900px){
+
+    .lista_menu{
+        padding: 0;
+    }
+
+    .redes_sociais{
+        padding: 0px;
+    }
+
+    .lista_menu_redesociais {
+        padding-left: 0px;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .container_menu {
+        background-color: #181717;
+        display: flex;
+        padding: 10px;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .menu_lista {
+        color: #FFF;
+        padding: 4px;
+        text-decoration: none;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .banner {
+        width: 100%;
+        height: 150px;
+    }
+
+    .titulo_banner2 {
+        color: #FFF;
+        font-size: 40px;
+        font-weight: 700;
+        padding-top: 30px;
+    }
+
+    .areas {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        padding: 30px;
+        flex-direction: column;
+    }
+
+    .banner_principal {
+        display: flex;
+        width: 100%;
+        height: 897px;
+        flex-direction: column;
+    }
+
+    .banner2 {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .caixa {
+        width: 100%;
+        padding: 20px;
+        text-align: center;
+    }
+
+
+    .descricao {
+        color: #FFF;
+        padding-left: 15px;
+        padding-right: 15px;        
+        text-align: justify;
+    }
+
+    .img_banner2 {
+        width: 100%;
+        padding-top: 10px;
+    }
+
+    .formulario {
+        position: inherit;
+        display: flex;
+        align-items: center;
+    }
+
+    .formulario_container {
+        background: #181717;
+        border-radius: 10px;
+        text-align: end;
+    }
+
+    .formulario_texto {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .titulo_formulario {
+        display: flex;
+        align-items: center;
+        font-size: 35px;
+        width: 100%;
+    }
+
+    .formulario_form{
+        display: flex;
+        justify-items: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .descricao_formulario {
+        width: 300px;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .campo_formulario{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .campo_texto {
+        width: 90%;
+        background: #D9D9D9;
+        border-radius: 5px;
+        font-size: 16px;
+        font-weight: 700;
+        height: 45px;
+    }
+
+    .campo_opcao {
+        width: 92%;
+        height: 40px;
+        background: #D9D9D9;
+        border-radius: 5px;
+        font-size: 16px;
+        font-weight: 700;
+        margin: 4px 4px 4px 4px;
+    }
+
+}
